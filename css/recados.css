@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#bodyRecados {
+    margin: 0px;
+    font-family:cursive;
+    background-color: antiquewhite;
+}
+#cabecalho {
+    background-color:slateblue;
+    display:flex;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bolder;
+}
+#mostrarLogado {
+    color: antiquewhite;
+    font-size: 25px;
+}
+#btn-sair {
+    /* all: unset; */
+    background-color: antiquewhite;
+    color:slateblue;
+    font-size: 17px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 75px;
+    cursor: pointer;
+}
+#titulo {
+    color: slateblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    
+}
+#divForm {
+    display: flex;
+    justify-content: space-evenly
+}
+#formRecados label {
+    color: slateblue;
+    font-size: 25px;
+}
+#descricao {
+    height: 20px;
+    width: 150px;
+}
+#detalhes {
+    height: 20px;
+    width: 300px;
+}
+
+#iptSubmit {
+    all: unset;
+    background-color: slateblue;
+    color: antiquewhite;
+    border-radius: 10%;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#iptLimpar {
+    all: unset;
+    background-color: slateblue;
+    color: antiquewhite;
+    border-radius: 10%;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#tabela {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    color: slateblue;
+    font-size: 30px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-style: double;
+}
+
+th, td {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+table th {
+    color:antiquewhite;
+    background-color: slateblue;
+}
+
+tbody th {
+    opacity: .8;
+}
+#btnApagar {
+    all: unset;
+    background-color: crimson;
+    color: black;
+    border-radius: 10%;
+    /* margin: 5px; */
+    padding: 5px;
+    cursor: pointer;
+
+}
+#btnEditar {
+    all: unset;
+    background-color:lawngreen;
+    color: black;
+    border-radius: 10%;
+    /* margin: 5px; */
+    padding: 5px;
+    cursor: pointer;
+}
+.btnAcoes {
+    padding: 0;
+    width: fit-content;
+}
+div#msg-erro {
+    display: flex;
+    justify-content: space-between;
+    color: crimson;
+}

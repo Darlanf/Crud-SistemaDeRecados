@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar conta</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main id="conta">
+        <div class="ladoEsquerdo">
+            <h1>SISTEMA DE RECADOS</h1>
+            <p> - Cadastre seu E-mail.</p>
+            <p> - Utilize uma senha fácil, com pelo menos 4 digitos.</p>
+            <p> - Confirme sua senha e aproveite!</p>
+        </div>
+        <div class="ladoDireito">
+            <h2>Criar nova conta!</h2>
+            <form id="formConta">
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                <br><br>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                <br><br>
+
+                <label for="confirmeSenha">Confirme sua Senha</label>
+                <input type="password" name="confirmeSenha" id="confirmeSenha" placeholder="Repita sua senha" required>
+                <br><br>
+
+                <input id="iptConta" type="submit" value="Cadastrar!">
+                <br><br>
+                <a href="./index.html" id="criarConta">Voltar</a>
+            </form>
+        </div>
+    </main>
+    <script src="./js/conta.js"></script>
+</body>
+</html>

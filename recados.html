@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de recados</title>
+    <link rel="stylesheet" href="./css/recados.css">
+</head>
+<body id="bodyRecados">
+    <header>
+        <div id="cabecalho">
+            <h2 id="mostrarLogado">Bem vindo, </h2>
+            <button id="btn-sair"><a href="./index.html"></a>Sair</button>
+        </div>
+        <h1 id="titulo">Seus recados</h1>
+        <div id="divForm">
+            <form id="formRecados">
+                <div>
+                    <label for="descricao">Descrição</label>
+                    <input type="text" name="descricao" id="descricao" placeholder="Descrição" required>
+                
+                    <label for="detalhes">Detalhes</label>
+                    <input type="text" name="detalhes" id="detalhes" placeholder="Detalhes" required>
+
+                    <input id="iptSubmit" type="submit" value="Salvar">
+                    <input id="iptLimpar" type="reset" value="Limpar">
+                </div>
+                
+                
+            </form>
+        </div>
+        <div id="msg-erro"></div>
+    </header>
+    <br>
+    <br>
+
+    <main id="tabela">
+        <table>
+            <caption>
+                <h2>Lista de Recados</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>DESCRIÇÃO</th>
+                    <th>DETALHES</th>
+                    <th>AÇÕES</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+
+    </div>
+    
+    </main>
+    <!-- <script src="./js/recados.js"></script> -->
+    <script src="./js/recados.js"></script>
+</body>
+</html>

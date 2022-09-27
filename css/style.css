@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url("../assets/img/cadernobg.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.ladoEsquerdo {
+    position: absolute;
+    left: 15%;
+    border: 1px outset;
+    border-radius: 10px;
+    font-size:large;
+    text-align: center;
+    color: slateblue;
+    background-color: antiquewhite;
+}
+.ladoDireito {
+    position: absolute;
+    right: 25%;
+    border: 1px outset;
+    border-radius: 10px;
+    font-size:large;
+    text-align: center;
+    color: slateblue;
+    background-color: antiquewhite;
+}

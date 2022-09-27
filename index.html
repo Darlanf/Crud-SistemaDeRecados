@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main id="login">
+        <div class="ladoEsquerdo">
+            <h1>SISTEMA DE RECADOS</h1>
+            <p> - Organize seus recados de uma forma fácil.</p>
+            <p> - Controle sua agenda e seus compromissos.</p>
+            <p> - Economize tempo e atinja seus objetivos.</p>
+        </div>
+        <div class="ladoDireito">
+            <h2>Login</h2>
+            <form id="formLogin">
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                <br><br>
+
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha" required>
+                <br><br>
+
+                <input id="iptLogin" type="submit" value="Logar">
+                <br><br>
+                <p>Não possui conta? <a href="./conta.html" id="criarConta"><span>Criar nova conta</span></a></p>
+            </form>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
